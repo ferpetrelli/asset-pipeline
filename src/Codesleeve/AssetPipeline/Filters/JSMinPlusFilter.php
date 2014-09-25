@@ -12,6 +12,6 @@ class JSMinPlusFilter implements FilterInterface
 
     public function filterDump(AssetInterface $asset)
     {
-		$asset->setContent(\JSMinPlus::minify($asset->getContent()) . ';');
+		$asset->setContent(\JShrink\Minifier::minify($asset->getContent()) . ';');
     }
 }
