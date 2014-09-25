@@ -17,7 +17,8 @@
         "nitra/php-min": "@dev",
         "leafo/scssphp": "0.0.9",
         "richthegeek/phpsass": "2014-03-20",
-        "ext-fileinfo": "*"
+        "ext-fileinfo": "*",
+        "tedivm/jshrink": "~1.0"
     },
     "require-dev": {
         "laravel/framework": "4.*",
